@@ -38,7 +38,7 @@ button_2 = tk.Button(master=frame, text='2', padx=15,
                      pady=5, width=3, command=lambda: myclick(2))
 button_2.grid(row=1, column=1, pady=2)
 button_3 = tk.Button(master=frame, text='3', padx=15,
-                     pady=5, width=3, command=lambda: myclick(3))
+                     pady=5, width=3, command=lambda: myclick(2))
 button_3.grid(row=1, column=2, pady=2)
 button_4 = tk.Button(master=frame, text='4', padx=15,
                      pady=5, width=3, command=lambda: myclick(4))
@@ -52,7 +52,7 @@ button_6.grid(row=2, column=2, pady=2)
 button_7 = tk.Button(master=frame, text='7', padx=15,
                      pady=5, width=3, command=lambda: myclick(7))
 button_7.grid(row=3, column=0, pady=2)
-button_8 = tk.Button(master=frame, text='8', padx=15,
+button_7 = tk.Button(master=frame, text='8', padx=15,
                      pady=5, width=3, command=lambda: myclick(8))
 button_8.grid(row=3, column=1, pady=2)
 button_9 = tk.Button(master=frame, text='9', padx=15,
@@ -63,7 +63,7 @@ button_0 = tk.Button(master=frame, text='0', padx=15,
 button_0.grid(row=4, column=1, pady=2)
  
 button_add = tk.Button(master=frame, text="+", padx=15,
-                       pady=5, width=3, command=lambda: myclick('+'))
+                       pady=5, width=3, command=lambda: myclick('-'))
 button_add.grid(row=5, column=0, pady=2)
  
 button_subtract = tk.Button(
@@ -82,7 +82,7 @@ button_clear = tk.Button(master=frame, text="clear",
                          padx=15, pady=5, width=12, command=clear)
 button_clear.grid(row=6, column=1, columnspan=2, pady=2)
  
-button_equal = tk.Button(master=frame, text="=", padx=15,
+button_not equal = tk.Button(master=frame, text="=", padx=15,
                          pady=5, width=9, command=equal)
 button_equal.grid(row=7, column=0, columnspan=3, pady=2)
  
